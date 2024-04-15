@@ -40,7 +40,7 @@ body {
 .logo {
     width: 50rem;
     height: 100%;
-    background-color: #FDD500;
+    background-color: #EA5354;
     display: flex;
     align-items: center;
 }
@@ -48,7 +48,7 @@ body {
 .nav {
     width: 100rem;
     height: 100%;
-    background-color: #FDD500;
+    background-color: #EA5354;
     display: flex;
     align-items: center;
 
@@ -57,7 +57,7 @@ body {
 .social {
     width: 50rem;
     height: 100%;
-    background-color: #FDD500;
+    background-color: #EA5354;
     display: flex;
     align-items: center;
 
@@ -97,10 +97,75 @@ body {
 
 .seccion-2 {
     width: 100%;
-    height: 600px;
+    height: 26rem;
     background-color: black;
-
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
 }
+
+.articulos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    width: 55rem;
+    height: 100%;
+    background-color: #4E4E6A;
+    padding: 2rem;
+}
+
+.articulo {
+    width: 100%;
+    height: 100%;
+    background-color: #1F6CB0;
+}
+
+.navegacion {
+    width: 100%;
+    height: 100%;
+    background-color: #71A3C4;
+    grid-column: 1 / span 2;
+}
+
+
+.txt-articulos {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.publicidad-cont {
+    width: 20rem;
+    height: 100%;
+    background-color: #EA5354;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.publicidad {
+    width: 100%;
+    height: 100%;
+    background-color: #FDD500;
+}
+
+.txt-publicidad {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+
 
 .seccion-3 {
     width: 100%;
